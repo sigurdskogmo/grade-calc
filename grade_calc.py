@@ -59,7 +59,7 @@ grades = [
     [100, "NO GRADE"]
 ]
 
-def calcGrade():
+def calc_grade():
     final_grade = "NaN"
 
     print("How many points did you get?")
@@ -81,6 +81,6 @@ def calcGrade():
             final_score = grades[i - 1][1]
             print("You will most likely be graded " + final_score + ".\n\n")
             break
-    calcGrade()
+    calc_grade()
 
-calcGrade()
+calc_grade()
